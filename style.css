@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat&family=Poppins:ital,wght@0,400;1,300&family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 8;
+    /* font-family: 'Poppins', sans-serif; */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    color: beige;
+    font: italic;
+    margin-left: 17px;
+    padding: 5px;
+}
+h1::first-letter{
+    font-size: xx-large;
+}
+.me{
+    width: 100px;
+    height: 163px;
+}
+.BOX{
+    height: 760px;
+    width: 98.7vw;
+    background-image: url(images/city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+}
+.container{
+    display: flex;
+}
+.links{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav ul li{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 81.53px;
+    display: flex;
+    display: inline-block;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    color: red;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 1px;
+    height: 3px;
+    background-color: aqua ;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+nav ul li a:hover::after{
+    width: 24px;
+    transition: 0.3s;
+}
+#header{
+    color: bisque;
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+.form{
+    text-align: center;
+    color: cornsilk;
+    padding: 37px;
+}
+.forms{
+    border: 2px solid aqua;
+}
+#submit{
+    color: red;
+    background-color:  aquamarine;
+    transition: color 0.3s, background-color 0.3s;
+}
+#reset{
+    color: red;
+    background-color:  aquamarine;
+    transition: color 0.3s, background-color 0.3s;
+}
+#submit:hover{
+    color: antiquewhite;
+    background-color: rgb(28, 191, 191);
+    transition-duration: 0.3s;
+
+}
+#reset:hover{
+    color: antiquewhite;
+    background-color: rgb(28, 191, 191);
+    transition-duration: 0.3s;
+}
+.chhupi{
+    display: flex;
+    padding: 10px 10px;
+}
+.hidne{
+    color: bisque;
+    font-size: 15px;
+    padding: 10px 0px 10px 160px;
+}
+
+#me{
+    flex-wrap: wrap-reverse;
+}
+p {
+    padding-left: 10px;
+    color: blanchedalmond;
+}
