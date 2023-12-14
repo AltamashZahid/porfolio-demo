@@ -22,7 +22,7 @@ h1::first-letter{
 .BOX{
     height: 760px;
     width: 98.7vw;
-    background-image: url(images/city.jpg);
+    background-image: url(city.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
